@@ -1,0 +1,112 @@
+*{
+    padding: 1px;margin: 1px;
+    /* background: rgb(160, 55, 55); */
+}
+fieldset {
+    background: #a4c3b2;
+}
+
+.container.left{
+    width: 60%;
+    
+    text-transform: capitalize;
+   
+}
+.left input[type="text"],.left input[type="password"],.left input[type="tel"],.left input[type="email"]{
+    border: 0;
+    outline: none;
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #5a189a;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 5px; margin: 5px;
+    background: #3da5d9;
+    transition: 0.25s;
+    color: black;
+}
+.left input[type="text"]:focus,.left input[type="password"]:focus, .left input[type="tel"]:focus,.left input[type="email"]:focus{
+    width: 310px;
+   background: #a4c3b2;
+}
+.left input[type="submit"]{
+    border: 0; outline: none;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 25px;
+    background: #3da5d9;
+    cursor: pointer;
+    transition: 0.50s;
+
+}
+.left input[type="submit"]:hover{
+    background: #5a189a;
+}
+
+
+
+legend{
+    border: 0;
+    border-radius: 20px;
+    text-transform: uppercase;
+    background: #a4c3b2;
+    color: #5a189a;
+}
+.container.rghit{
+    width: 30%;
+    text-transform: capitalize;
+    position: absolute;
+    left: 63%;
+    top: 10%;
+    
+    
+}
+.rghit fieldset{
+    background: #81d8d0;
+    padding: 5px;margin: 5px;
+}
+.rghit input[type="text"], .rghit input[type="password"]{
+    border: 0;outline: none;
+    padding: 6px; margin: 5px;
+    width: 200px;
+    display: block;
+    background: none;
+    text-align: center;
+    border: 2px solid #5a189a;
+    border-radius: 15px;
+    transition: 0.25s;
+    
+}
+.rghit input[type="text"]:focus, .rghit input[type="password"]:focus{
+    width: 220px;
+    background: #8cb369;
+}
+.rghit input[type="submit"]{
+    background: #072ac8;
+    width: 75px;
+    color: white;
+    padding: 5px; margin: 6px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    left: 70%;
+    top: 78%;
+    border: 0;outline: none;
+    border-radius: 10px;
+    transition: 0.50s;
+}
+.rghit input[type="submit"]:hover{
+  background: rgb(189, 88, 88);
+  width: 80px;
+}
+input::placeholder {
+    color: rgb(89, 0, 255);
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+  }
+  
